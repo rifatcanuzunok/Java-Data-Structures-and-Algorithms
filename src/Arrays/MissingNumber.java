@@ -21,7 +21,7 @@ public class MissingNumber {
     }
 
     public static void main(String[] args) {
-        var myArray = new int[] { 1, 2, 3, 4, 6 };
+        int[] myArray = { 1, 2, 3, 4, 6 };
         System.out.println(findMissingNumberInArray(myArray));
     }
 }

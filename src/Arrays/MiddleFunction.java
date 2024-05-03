@@ -22,7 +22,7 @@ public class MiddleFunction {
     }
 
     public static void main(String[] args) throws Exception {
-        var arr = new int[] { 1, 2, 3, 4, 5 };
+        int[] arr = { 1, 2, 3, 4, 5 };
         middle(arr);
     }
 }

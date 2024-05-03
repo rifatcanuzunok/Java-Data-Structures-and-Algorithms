@@ -23,7 +23,7 @@ public class Arrays2D {
     }
 
     public static void main(String[] args) {
-        var myArray2D = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        int[][] myArray2D = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
         System.out.println(sumDiagonalElements(myArray2D));
     }
 

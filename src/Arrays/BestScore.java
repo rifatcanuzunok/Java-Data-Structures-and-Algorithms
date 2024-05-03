@@ -13,7 +13,7 @@ package Arrays;
 
 public class BestScore {
     public static int[] firstSecond(int[] array) {
-        var bestScore = new int[] { Integer.MIN_VALUE, Integer.MIN_VALUE };
+        int[] bestScore = { Integer.MIN_VALUE, Integer.MIN_VALUE };
         for (int score : array) {
             if (score > bestScore[0]) {
                 bestScore[1] = bestScore[0];
@@ -26,7 +26,7 @@ public class BestScore {
     }
 
     public static void main(String[] args) {
-        var myArray = new int[] { 84, 85, 86, 87, 85, 90, 85, 83, 23, 45, 84, 1, 2, 0 };
+        int[] myArray = { 84, 85, 86, 87, 85, 90, 85, 83, 23, 45, 84, 1, 2, 0 };
         firstSecond(myArray);
     }
 }

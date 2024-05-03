@@ -33,8 +33,8 @@ public class DuplicateNumber {
     }
 
     public static void main(String[] args) {
-        var myArray = new int[] { 1, 1, 2, 2, 3, 4, 5 };
-        var deduplicatedArray = removeDuplicates(myArray);
+        int[] myArray = { 1, 1, 2, 2, 3, 4, 5 };
+        int[] deduplicatedArray = removeDuplicates(myArray);
         System.out.println(deduplicatedArray);
     }
 
