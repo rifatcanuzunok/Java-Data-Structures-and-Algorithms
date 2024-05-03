@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 // Middle Function
 
 // Write a function called middle that takes an array and returns a new array that contains all but the first and last elements.
@@ -23,6 +25,6 @@ public class MiddleFunction {
 
     public static void main(String[] args) throws Exception {
         int[] arr = { 1, 2, 3, 4, 5 };
-        middle(arr);
+        System.out.println(Arrays.toString(middle(arr)));
     }
 }

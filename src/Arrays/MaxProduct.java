@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 // Max Product of Two Integers
 
 // How to find maximum product of two integers in the array where all elements are positive.
@@ -25,6 +27,6 @@ public class MaxProduct {
 
     public static void main(String[] args) {
         int[] intArray = { 10, 20, 30, 40, 50 };
-        maxProduct(intArray);
+        System.out.println(Arrays.toString(maxProduct(intArray)));
     }
 }
